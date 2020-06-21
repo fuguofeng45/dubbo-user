@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9b87ca7-98fd-405b-9aeb-fcab4d77f625" name="Default Changelist" comment="" />
+    <list default="true" id="c9b87ca7-98fd-405b-9aeb-fcab4d77f625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gupao/vip/mic/dubbo/user/HeapMemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +14,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,6 +37,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dGKRI6xpxtLKOyC7kHFjVKUony" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,29 +45,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1328125" />
     <property name="project.structure.side.proportion" value="0.29180327" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ClassLoaderTest">
-    <configuration name="ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.ArrayList" />
-      <module name="dubbo-user" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HeapMemTest">
     <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.CallableTest" />
       <module name="dubbo-user" />
@@ -76,6 +72,20 @@
     <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.ClassLoaderTest" />
       <module name="dubbo-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapMemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.HeapMemTest" />
+      <module name="dubbo-user" />
+      <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
@@ -112,13 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CallableTest" />
+      <item itemvalue="Application.ClassLoaderTest" />
+      <item itemvalue="Application.HeapMemTest" />
+      <item itemvalue="Application.LockAndConditionTest" />
+      <item itemvalue="Application.ProdConsumerDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapMemTest" />
         <item itemvalue="Application.ClassLoaderTest" />
         <item itemvalue="Application.CallableTest" />
         <item itemvalue="Application.LockAndConditionTest" />
         <item itemvalue="Application.ProdConsumerDemo" />
-        <item itemvalue="Application.ArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +161,8 @@
       <workItem from="1592372888594" duration="4749000" />
       <workItem from="1592384144209" duration="5097000" />
       <workItem from="1592459891235" duration="13607000" />
-      <workItem from="1592531570322" duration="13524000" />
+      <workItem from="1592531570322" duration="23962000" />
+      <workItem from="1592643660124" duration="600000" />
     </task>
     <servers />
   </component>
@@ -156,50 +174,66 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="208" y="23" width="1024" height="835" key="#Project_Structure/0.23.1440.835@0.23.1440.835" timestamp="1592199928706" />
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592630582286">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1592630582286" />
     <state x="458" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1592537244450">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="458" y="148" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1592537244450" />
+    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2" timestamp="1592631799399">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2/0.23.1440.835@0.23.1440.835" timestamp="1592631799399" />
     <state width="476" height="466" key="DebuggerActiveHint" timestamp="1592385550831">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="476" height="466" key="DebuggerActiveHint/0.23.1440.835@0.23.1440.835" timestamp="1592385550831" />
-    <state width="1398" height="257" key="GridCell.Tab.0.bottom" timestamp="1592616581839">
+    <state x="583" y="344" key="Github.ShareDialog" timestamp="1592617436273">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="257" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592616581839" />
-    <state width="1398" height="257" key="GridCell.Tab.0.center" timestamp="1592616581838">
+    <state x="583" y="344" key="Github.ShareDialog/0.23.1440.835@0.23.1440.835" timestamp="1592617436273" />
+    <state x="412" y="145" key="Github.UntrackedFilesDialog" timestamp="1592617447541">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="257" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1592616581838" />
-    <state width="1398" height="257" key="GridCell.Tab.0.left" timestamp="1592616581835">
+    <state x="412" y="145" key="Github.UntrackedFilesDialog/0.23.1440.835@0.23.1440.835" timestamp="1592617447541" />
+    <state width="1398" height="13" key="GridCell.Tab.0.bottom" timestamp="1592643654135">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="257" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1592616581835" />
-    <state width="1398" height="257" key="GridCell.Tab.0.right" timestamp="1592616581839">
+    <state width="1398" height="13" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592643654135" />
+    <state width="1398" height="13" key="GridCell.Tab.0.center" timestamp="1592643654134">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="257" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1592616581839" />
-    <state width="1398" height="203" key="GridCell.Tab.1.bottom" timestamp="1592553910580">
+    <state width="1398" height="13" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1592643654134" />
+    <state width="1398" height="13" key="GridCell.Tab.0.left" timestamp="1592643654134">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592553910580" />
-    <state width="1398" height="203" key="GridCell.Tab.1.center" timestamp="1592553910579">
+    <state width="1398" height="13" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1592643654134" />
+    <state width="1398" height="13" key="GridCell.Tab.0.right" timestamp="1592643654134">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1592553910579" />
-    <state width="1398" height="203" key="GridCell.Tab.1.left" timestamp="1592553910578">
+    <state width="1398" height="13" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1592643654134" />
+    <state width="1398" height="203" key="GridCell.Tab.1.bottom" timestamp="1592643654123">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1592553910578" />
-    <state width="1398" height="203" key="GridCell.Tab.1.right" timestamp="1592553910580">
+    <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
+    <state width="1398" height="203" key="GridCell.Tab.1.center" timestamp="1592643654123">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1592553910580" />
-    <state x="221" y="23" width="1024" height="835" key="SettingsEditor" timestamp="1592199910377">
+    <state width="1398" height="203" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
+    <state width="1398" height="203" key="GridCell.Tab.1.left" timestamp="1592643654123">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state x="221" y="23" width="1024" height="835" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1592199910377" />
+    <state width="1398" height="203" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
+    <state width="1398" height="203" key="GridCell.Tab.1.right" timestamp="1592643654123">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
+    <state x="221" y="23" width="1024" height="835" key="SettingsEditor" timestamp="1592623712976">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="221" y="23" width="1024" height="835" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1592623712976" />
     <state x="88" y="103" key="new project wizard" timestamp="1592102880250">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
