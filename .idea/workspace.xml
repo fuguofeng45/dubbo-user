@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9b87ca7-98fd-405b-9aeb-fcab4d77f625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gupao/vip/mic/dubbo/user/HeapMemTest.java" afterDir="false" />
+    <list default="true" id="c9b87ca7-98fd-405b-9aeb-fcab4d77f625" name="Default Changelist" comment="123">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/CallableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/TicketSale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/VolatileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     <property name="project.structure.side.proportion" value="0.29180327" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.HeapMemTest">
+  <component name="RunManager" selected="Application.ClassLoaderTest">
     <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.CallableTest" />
       <module name="dubbo-user" />
@@ -96,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockAndConditionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.LockAndConditionTest" />
+    <configuration name="TicketSale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.TicketSale" />
       <module name="dubbo-user" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.ProdConsumerDemo" />
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.VolatileTest" />
       <module name="dubbo-user" />
       <extension name="coverage">
         <pattern>
@@ -126,16 +128,16 @@
       <item itemvalue="Application.CallableTest" />
       <item itemvalue="Application.ClassLoaderTest" />
       <item itemvalue="Application.HeapMemTest" />
-      <item itemvalue="Application.LockAndConditionTest" />
-      <item itemvalue="Application.ProdConsumerDemo" />
+      <item itemvalue="Application.VolatileTest" />
+      <item itemvalue="Application.TicketSale" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapMemTest" />
         <item itemvalue="Application.ClassLoaderTest" />
         <item itemvalue="Application.CallableTest" />
-        <item itemvalue="Application.LockAndConditionTest" />
-        <item itemvalue="Application.ProdConsumerDemo" />
+        <item itemvalue="Application.TicketSale" />
+        <item itemvalue="Application.VolatileTest" />
+        <item itemvalue="Application.HeapMemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,11 +165,24 @@
       <workItem from="1592459891235" duration="13607000" />
       <workItem from="1592531570322" duration="23962000" />
       <workItem from="1592643660124" duration="600000" />
+      <workItem from="1592708043603" duration="9197000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <created>1592708123026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592708123026</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="23" width="1024" height="835" key="#Project_Structure" timestamp="1592199928706">
@@ -178,14 +193,14 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1592630582286" />
-    <state x="458" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1592537244450">
+    <state x="458" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1592743743873">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state x="458" y="148" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1592537244450" />
-    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2" timestamp="1592631799399">
+    <state x="458" y="148" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1592743743873" />
+    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2" timestamp="1592710594992">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2/0.23.1440.835@0.23.1440.835" timestamp="1592631799399" />
+    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2/0.23.1440.835@0.23.1440.835" timestamp="1592710594992" />
     <state width="476" height="466" key="DebuggerActiveHint" timestamp="1592385550831">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
@@ -198,38 +213,38 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="412" y="145" key="Github.UntrackedFilesDialog/0.23.1440.835@0.23.1440.835" timestamp="1592617447541" />
-    <state width="1398" height="13" key="GridCell.Tab.0.bottom" timestamp="1592643654135">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1592744649584">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="13" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592643654135" />
-    <state width="1398" height="13" key="GridCell.Tab.0.center" timestamp="1592643654134">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592744649584" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1592744649583">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="13" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1592643654134" />
-    <state width="1398" height="13" key="GridCell.Tab.0.left" timestamp="1592643654134">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1592744649583" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1592744649583">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="13" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1592643654134" />
-    <state width="1398" height="13" key="GridCell.Tab.0.right" timestamp="1592643654134">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1592744649583" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1592744649584">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="13" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1592643654134" />
-    <state width="1398" height="203" key="GridCell.Tab.1.bottom" timestamp="1592643654123">
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1592744649584" />
+    <state width="1398" height="203" key="GridCell.Tab.1.bottom" timestamp="1592744649585">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
-    <state width="1398" height="203" key="GridCell.Tab.1.center" timestamp="1592643654123">
+    <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592744649585" />
+    <state width="1398" height="203" key="GridCell.Tab.1.center" timestamp="1592744649585">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
-    <state width="1398" height="203" key="GridCell.Tab.1.left" timestamp="1592643654123">
+    <state width="1398" height="203" key="GridCell.Tab.1.center/0.23.1440.835@0.23.1440.835" timestamp="1592744649585" />
+    <state width="1398" height="203" key="GridCell.Tab.1.left" timestamp="1592744649584">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
-    <state width="1398" height="203" key="GridCell.Tab.1.right" timestamp="1592643654123">
+    <state width="1398" height="203" key="GridCell.Tab.1.left/0.23.1440.835@0.23.1440.835" timestamp="1592744649584" />
+    <state width="1398" height="203" key="GridCell.Tab.1.right" timestamp="1592744649585">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1592643654123" />
+    <state width="1398" height="203" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1592744649585" />
     <state x="221" y="23" width="1024" height="835" key="SettingsEditor" timestamp="1592623712976">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
@@ -242,10 +257,21 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="385" y="200" width="670" height="675" key="run.anything.popup/0.23.1440.835@0.23.1440.835" timestamp="1592185349136" />
-    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup" timestamp="1592551536851">
+    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup" timestamp="1592725673323">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="385" y="171" width="670" height="729" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592398492972" />
-    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1592551536851" />
+    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1592725673323" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/src.zip!/java/util/HashSet.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
