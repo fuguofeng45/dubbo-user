@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9b87ca7-98fd-405b-9aeb-fcab4d77f625" name="Default Changelist" comment="123">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/TicketSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/SemaphoreTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/cyclicbarrier/CyclicBarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/cyclicbarrier/CyclicBarrierTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/executor/ExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/executor/ExecutorTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/executor/ExecutorTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/executor/ExecutorTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/executor/SingleExecutorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/lock/ReadWriteLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/queue/BlockQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/queue/BlockingQueueDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/semaphore/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/stream/StreamCodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/vip/mic/dubbo/user/VolatileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,15 +65,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1328125" />
     <property name="project.structure.side.proportion" value="0.29180327" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ClassLoaderTest">
-    <configuration name="CallableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.CallableTest" />
+  <component name="RunManager" selected="Application.CyclicBarrierTest2">
+    <configuration name="CyclicBarrierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.cyclicbarrier.CyclicBarrierTest" />
       <module name="dubbo-user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
+          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.cyclicbarrier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.ClassLoaderTest" />
+    <configuration name="CyclicBarrierTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.cyclicbarrier.CyclicBarrierTest2" />
       <module name="dubbo-user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
+          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.cyclicbarrier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,13 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapMemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.HeapMemTest" />
+    <configuration name="ExecutorTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.executor.ExecutorTest1" />
       <module name="dubbo-user" />
-      <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
+          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketSale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.TicketSale" />
+    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.semaphore.SemaphoreTest" />
       <module name="dubbo-user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
+          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.VolatileTest" />
+    <configuration name="StreamCodeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.vip.mic.dubbo.user.stream.StreamCodeTest" />
       <module name="dubbo-user" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.*" />
+          <option name="PATTERN" value="com.gupao.vip.mic.dubbo.user.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CallableTest" />
-      <item itemvalue="Application.ClassLoaderTest" />
-      <item itemvalue="Application.HeapMemTest" />
-      <item itemvalue="Application.VolatileTest" />
-      <item itemvalue="Application.TicketSale" />
+      <item itemvalue="Application.ExecutorTest1" />
+      <item itemvalue="Application.StreamCodeTest" />
+      <item itemvalue="Application.SemaphoreTest" />
+      <item itemvalue="Application.CyclicBarrierTest" />
+      <item itemvalue="Application.CyclicBarrierTest2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassLoaderTest" />
-        <item itemvalue="Application.CallableTest" />
-        <item itemvalue="Application.TicketSale" />
-        <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.HeapMemTest" />
+        <item itemvalue="Application.CyclicBarrierTest2" />
+        <item itemvalue="Application.CyclicBarrierTest" />
+        <item itemvalue="Application.SemaphoreTest" />
+        <item itemvalue="Application.StreamCodeTest" />
+        <item itemvalue="Application.ExecutorTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +174,7 @@
       <workItem from="1592459891235" duration="13607000" />
       <workItem from="1592531570322" duration="23962000" />
       <workItem from="1592643660124" duration="600000" />
-      <workItem from="1592708043603" duration="9197000" />
+      <workItem from="1592708043603" duration="36418000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1592708123026</created>
@@ -174,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592708123026</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="123">
+      <created>1592788651614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592788651614</updated>
+    </task>
+    <task id="LOCAL-00003" summary="countdownlatch cyclicbarrier semaphore">
+      <created>1592794294689</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592794294689</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
+    <MESSAGE value="countdownlatch cyclicbarrier semaphore" />
+    <option name="LAST_COMMIT_MESSAGE" value="countdownlatch cyclicbarrier semaphore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="23" width="1024" height="835" key="#Project_Structure" timestamp="1592199928706">
@@ -197,14 +221,22 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="458" y="148" key="#com.intellij.ide.util.MemberChooser/0.23.1440.835@0.23.1440.835" timestamp="1592743743873" />
-    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2" timestamp="1592710594992">
+    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2" timestamp="1592794294509">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2/0.23.1440.835@0.23.1440.835" timestamp="1592710594992" />
+    <state x="297" y="23" width="846" height="835" key="CommitChangelistDialog2/0.23.1440.835@0.23.1440.835" timestamp="1592794294509" />
     <state width="476" height="466" key="DebuggerActiveHint" timestamp="1592385550831">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="476" height="466" key="DebuggerActiveHint/0.23.1440.835@0.23.1440.835" timestamp="1592385550831" />
+    <state x="455" y="30" key="Diagram.Print.Preview.Dialog" timestamp="1592815145661">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="455" y="30" key="Diagram.Print.Preview.Dialog/0.23.1440.835@0.23.1440.835" timestamp="1592815145661" />
+    <state x="100" y="123" width="1240" height="635" key="DiffContextDialog" timestamp="1592790134803">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="100" y="123" width="1240" height="635" key="DiffContextDialog/0.23.1440.835@0.23.1440.835" timestamp="1592790134803" />
     <state x="583" y="344" key="Github.ShareDialog" timestamp="1592617436273">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
@@ -213,22 +245,22 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="412" y="145" key="Github.UntrackedFilesDialog/0.23.1440.835@0.23.1440.835" timestamp="1592617447541" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1592744649584">
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1592875605115">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592744649584" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1592744649583">
+    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1592875605115" />
+    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1592875605114">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1592744649583" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1592744649583">
+    <state width="1398" height="200" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1592875605114" />
+    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1592875605113">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1592744649583" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1592744649584">
+    <state width="1398" height="200" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1592875605113" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1592875605114">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1592744649584" />
+    <state width="1398" height="200" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1592875605114" />
     <state width="1398" height="203" key="GridCell.Tab.1.bottom" timestamp="1592744649585">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
@@ -245,10 +277,14 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state width="1398" height="203" key="GridCell.Tab.1.right/0.23.1440.835@0.23.1440.835" timestamp="1592744649585" />
-    <state x="221" y="23" width="1024" height="835" key="SettingsEditor" timestamp="1592623712976">
+    <state x="221" y="23" width="1024" height="835" key="SettingsEditor" timestamp="1592838204830">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
-    <state x="221" y="23" width="1024" height="835" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1592623712976" />
+    <state x="221" y="23" width="1024" height="835" key="SettingsEditor/0.23.1440.835@0.23.1440.835" timestamp="1592838204830" />
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2" timestamp="1592794327474">
+      <screen x="0" y="23" width="1440" height="835" />
+    </state>
+    <state x="320" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.835@0.23.1440.835" timestamp="1592794327474" />
     <state x="88" y="103" key="new project wizard" timestamp="1592102880250">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
@@ -257,11 +293,11 @@
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="385" y="200" width="670" height="675" key="run.anything.popup/0.23.1440.835@0.23.1440.835" timestamp="1592185349136" />
-    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup" timestamp="1592725673323">
+    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup" timestamp="1592839051804">
       <screen x="0" y="23" width="1440" height="835" />
     </state>
     <state x="385" y="171" width="670" height="729" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592398492972" />
-    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1592725673323" />
+    <state x="385" y="182" width="670" height="676" key="search.everywhere.popup/0.23.1440.835@0.23.1440.835" timestamp="1592839051803" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
