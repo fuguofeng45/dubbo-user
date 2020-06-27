@@ -16,6 +16,7 @@ public class StreamCodeTest {
         list.add(4);
         list.add(5);
         list.add(6);
+
         List<Integer> list1 = list.stream().filter((l) -> {
             return l % 2 == 0;
         }).collect(Collectors.toList());
